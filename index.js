@@ -32,10 +32,11 @@ function viewport(bounds, dimensions, minzoom, maxzoom, tileSize) {
         height = bl[1] - tr[1],
         ratios = [width / dimensions[0], height / dimensions[1]],
         center = [(bounds[0] + bounds[2]) / 2, (bounds[1] + bounds[3]) / 2],
-        adjusted = Math.floor(Math.min(
+        adjusted = Math.min(
             base - (Math.log(ratios[0]) / Math.log(2)),
-            base - (Math.log(ratios[1]) / Math.log(2)))),
+            base - (Math.log(ratios[1]) / Math.log(2))),
         zoom = Math.max(minzoom, Math.min(maxzoom, adjusted));
+  console.log('why no float?', zoom)
 
     return { center: center, zoom: zoom };
 }
