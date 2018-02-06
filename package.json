@@ -11,7 +11,7 @@
   },
   "version": "0.2.2",
   "dependencies": {
-    "@mapbox/sphericalmercator": "orionstein/sphericalmercator"
+    "@mapbox/sphericalmercator": "rentpath/sphericalmercator"
   },
   "scripts": {
     "test": "tap test/*.js",
