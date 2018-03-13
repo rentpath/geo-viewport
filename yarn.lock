@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@mapbox/sphericalmercator@rentpath/sphericalmercator":
-  version "1.0.5"
-  resolved "https://codeload.github.com/rentpath/sphericalmercator/tar.gz/0d1cc287a262e490c4fca6d2b6446274521667e0"
+"@mapbox/sphericalmercator@rentpath/sphericalmercator#v1.0.6":
+  version "1.0.6"
+  resolved "https://codeload.github.com/rentpath/sphericalmercator/tar.gz/f9b4a98001cb16d9104ad8c908f52d404d8c7ffd"
 
 JSONStream@^1.0.3:
   version "1.3.1"
